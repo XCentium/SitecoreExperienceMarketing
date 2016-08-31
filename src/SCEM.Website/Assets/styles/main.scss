@@ -1,0 +1,7 @@
+﻿@import "../components/bourbon/app/assets/stylesheets/bourbon";
+
+
+
+section {
+  @include linear-gradient(to top, red, orange);
+}

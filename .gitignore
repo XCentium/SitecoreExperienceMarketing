@@ -1,0 +1,8 @@
+#gitignore
+/src/.vs
+/src/packages
+/src/references
+/src/SCEM.Website/Assets/components
+bin
+obj
+*.csproj.user

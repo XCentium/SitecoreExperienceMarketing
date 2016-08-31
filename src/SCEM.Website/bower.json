@@ -1,0 +1,26 @@
+{
+  "name": "ClientProject.Website",
+  "authors": [
+    "allanonk4 <matthew.a.schultz@gmail.com>"
+  ],
+  "description": "Client project base",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Assets/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4",
+    "bourbon": "4.2.5",
+    "foundation": "^5.5.3",
+    "bower-foundation5": "^5.0.3"
+  }
+}

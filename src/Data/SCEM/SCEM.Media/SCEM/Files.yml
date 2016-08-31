@@ -1,0 +1,14 @@
+﻿---
+ID: "f42b61f0-eaf0-409f-8555-0b5a11a03392"
+Parent: "7333a32a-9e25-42fa-9f2b-a4fe8d495269"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/SCEM/Files
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20160828T011525:636079437250563162Z"
