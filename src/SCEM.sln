@@ -13,7 +13,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{B4740AD5-038
 		lib\Sitecore.CodeGenerator.pdb = lib\Sitecore.CodeGenerator.pdb
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{F5FE13E3-5B3E-432C-806C-383220244070}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FCD061E3-CEFF-4590-A8D7-9E0F8FBC8925}"
+	ProjectSection(SolutionItems) = preProject
+		SCEM.Website\Properties\PublishProfiles\local.pubxml = SCEM.Website\Properties\PublishProfiles\local.pubxml
+		..\README.md = ..\README.md
+		SCEM.Website\App_Config\Include\z.SCEM.user.config.example = SCEM.Website\App_Config\Include\z.SCEM.user.config.example
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
