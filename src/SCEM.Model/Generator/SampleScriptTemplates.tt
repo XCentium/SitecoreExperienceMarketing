@@ -10,35 +10,11 @@
 				{
 					// Add custom options, like setting the return type of a field property explicitly
 
+          /* Examples
 					if("{2BFA75D7-D5AC-4C45-94A5-178C0CC01298}".Equals(fieldId))
 					{
 						fieldOptions.GlassFieldTypeName = "INavigationFolder";
 					}
-
-					if("{0BA52CF0-A478-438D-90F3-A796AADBFAA4}".Equals(fieldId))
-					{
-						fieldOptions.GlassFieldTypeName = "IProductGroup";
-					}
-
-					if("{0BA52CF0-A478-438D-90F3-A796AADBFAA4}".Equals(fieldId))
-					{
-						fieldOptions.GlassFieldTypeName = "IProductGroup";
-					}
-
-
-          string [] SiteSettings = new string [] {"{91F40B47-00AF-4EE7-AA10-307F9411B54E}","{265D2CB3-5013-4164-9C3D-7A3516F84BBE}","{BE69C133-7C78-4D1B-8212-831B01577164}","{77C3A252-E7A0-43C6-BE4D-B8C3EF169201}"};
-
-          if(SiteSettings.Contains(fieldId))
-					{
-						fieldOptions.GlassFieldTypeName = "ISiteProperty";
-					}
-
-
-          if(new string [] {"{1D3D8F0B-0303-411E-AC51-E42886A03516}","{DF8322AD-C9B2-4313-A9A5-22F3231BF6D4}"}.Contains(fieldId))
-          {
-            fieldOptions.GlassFieldTypeName = "IContactModalPage";
-          }
-
 
           string [] PersonListFields = new string [] {"{7219841E-5E6D-4D7B-9068-EA39B9E05846}","{E5142AF9-8D4F-4B3F-8A63-FE5216CBF4FD}"};
 
@@ -46,7 +22,7 @@
 					{
 						fieldOptions.GlassFieldTypeName = "IEnumerable<IPerson>";
 					}
-
+          */
 
 				});
     generator.Run();

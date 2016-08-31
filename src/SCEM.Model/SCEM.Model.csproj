@@ -89,6 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Gl\IBaseItem.cs" />
+    <Compile Include="Gl\Pages\IBasePage.gen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
@@ -101,7 +102,10 @@
     <Content Include="Generator\SampleScriptTemplates.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>SampleScriptTemplates1.gen.txt</LastGenOutput>
-      <LastOutputs>.\SampleScriptTemplates1.gen.txt</LastOutputs>
+      <LastOutputs>
+..\Gl\Pages\IBasePage.gen.cs
+.\SampleScriptTemplates1.gen.txt
+</LastOutputs>
     </Content>
     <Content Include="Generator\SampleScriptTemplates1.gen.txt">
       <AutoGen>True</AutoGen>
