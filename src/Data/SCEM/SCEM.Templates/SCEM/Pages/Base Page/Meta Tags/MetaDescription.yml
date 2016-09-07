@@ -1,0 +1,21 @@
+﻿---
+ID: "417b6d62-638c-4051-b9fc-ae322ab44343"
+Parent: "1593e66b-f2d9-4aca-9a86-27f43f73a994"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/SCEM/Pages/Base Page/Meta Tags/MetaDescription
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T211818Z

@@ -53,7 +53,7 @@ namespace SCEM.Constants
 
         #region - CONFIGURATION -
 
-        public static Guid ConfigSetting = new Guid("73CD7728-AC00-4B77-B3F0-6AE2B8941E34");
+        public static Guid ConfigSetting = new Guid("5BDF5E65-57CF-4DEB-8C3C-EFA44FD8FD8E");
 
         #endregion
 

@@ -209,9 +209,21 @@
     <Folder Include="Views\Renderings\SCEM\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SCEM.Common\SCEM.Common.csproj">
+      <Project>{03dd0bd1-dc98-404b-b09d-f2b81fd7b1fd}</Project>
+      <Name>SCEM.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SCEM.Constants\SCEM.Constants.csproj">
+      <Project>{2c20d6f2-729a-40ab-9f34-54a674d7d54d}</Project>
+      <Name>SCEM.Constants</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SCEM.Model\SCEM.Model.csproj">
       <Project>{110fecd4-3659-4900-83f6-1de51d5922f9}</Project>
       <Name>SCEM.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SitecoreHelper\SitecoreHelper.csproj">
+      <Project>{d5b3e409-cbf8-4570-86a4-d8102d2054f0}</Project>
+      <Name>SitecoreHelper</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
