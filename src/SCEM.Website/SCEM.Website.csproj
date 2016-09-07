@@ -179,12 +179,12 @@
     <Content Include="App_Config\Include\z.SCEM.config" />
     <Content Include="App_Config\Include\EmailExperience\Sitecore.EDS.Providers.CustomSmtp.config" />
     <Content Include="App_Config\Include\EmailExperience\Sitecore.EDS.Providers.CustomSMTP.Sync.config" />
-    <None Include="App_Config\Include\z.SCEM.user.config.example" />
+    <None Include="App_Config\Include\z.SCEM.user.config" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <None Include="Properties\PublishProfiles\local.pubxml" />
+    <None Include="Properties\PublishProfiles\SCEM.pubxml" />
     <Content Include="Views\Layouts\SCEM\MainLayout.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <None Include="Web.config" />
