@@ -180,6 +180,7 @@
     <Content Include="App_Config\Include\EmailExperience\Sitecore.EDS.Providers.CustomSmtp.config" />
     <Content Include="App_Config\Include\EmailExperience\Sitecore.EDS.Providers.CustomSMTP.Sync.config" />
     <None Include="App_Config\Include\z.SCEM.user.config.example" />
+    <Content Include="bower.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
