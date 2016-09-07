@@ -40,7 +40,7 @@
 
 # Regenerating Models using the generator
 
-    Sitecore Experience Marketing uses glass as the Object relational layer and t4 templates to generate interfaces from serialized unicorn templates.
+Sitecore Experience Marketing uses glass as the Object relational layer and t4 templates to generate interfaces from serialized unicorn templates.
 
 ## Initial Generator Setup
 
@@ -52,9 +52,9 @@ go to properties for GlassGenerator.tt and GlassMappedClassTemplate.tt and clear
 
 ## To Regenerate from Glass
 
-  right click on SampleScriptTemplates.tt and click run custom tool. This should regenerate the glass templates from the unicorn serialization folder.
+right click on SampleScriptTemplates.tt and click run custom tool. This should regenerate the glass templates from the unicorn serialization folder.
 
 ## Using custom return types
 
-    To map fields to custom interfaces update the SampleScriptTemplate.tt file to check for the field id and set the appropriate type
+To map fields to custom interfaces, update the SampleScriptTemplate.tt file to check for the field id and set the appropriate type
  
