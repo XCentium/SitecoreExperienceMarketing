@@ -6,3 +6,4 @@
 bin
 obj
 *.csproj.user
+src/SCEM.Website/Properties/PublishProfiles/Ryan Local.pubxml
