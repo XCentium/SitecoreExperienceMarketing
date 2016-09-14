@@ -18,9 +18,11 @@
     "tests"
   ],
   "dependencies": {
+    "foundation-sites": "6.2.0",
     "jquery": "2.1.4",
-    "bourbon": "4.2.5",
-    "foundation": "^5.5.3",
-    "bower-foundation5": "^5.0.3"
+    "bourbon": "4.2.5"
+  },
+  "resolutions": {
+    "jquery": "~2.2.0"
   }
 }
